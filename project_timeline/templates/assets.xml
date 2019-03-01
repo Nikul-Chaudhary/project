@@ -2,9 +2,9 @@
 <odoo>
     <template id="assets_backend" inherit_id="web.assets_backend">
         <xpath expr="//link[last()]">
-            <link href="/project_timeline/static/src/less/project_timeline.less"
+            <link href="/project_timeline/static/src/scss/project_timeline.scss"
                   rel="stylesheet"
-                  type="text/less"/>
+                  type="text/scss"/>
         </xpath>
     </template>
 </odoo>
